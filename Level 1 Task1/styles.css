@@ -11,22 +11,90 @@ header {
     padding: 20px;
 }
 
-#skills, #projects, #contact, #achievements, #services, #cv, #education {
-    padding: 20px;
-    margin: 20px;
+h1, p {
+    margin: 0;
+}
+
+ section {
+    padding: 2%;
+    margin: 2%;
     border: 1px solid #ddd;
 }
 
+ #achievements, #cv, #education, #contact {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+
 ul {
-    list-style-type: none;
+    list-style-type: circle;
     padding: 0;
 }
 
-li {
-    display: inline;
+inline-list li {
+    display: inline-block;
     margin-right: 10px;
 }
 
 .project {
     margin-bottom: 20px;
+}
+/* Updated Contact Section Styling */
+
+.contact {
+    max-width: 600px; 
+    margin: 20px auto; 
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.contact .heading {
+    text-align: center; 
+}
+
+.contact h2 {
+    margin-bottom: 10px; 
+}
+
+.contact-form {
+    display: grid;
+    gap: 15px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #555;
+}
+
+/* Responsive Design for Contact Form */
+@media screen and (max-width: 600px) {
+    .contact {
+        width: 90%;
+    }
 }
