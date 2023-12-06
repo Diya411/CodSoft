@@ -1,6 +1,7 @@
 # CodSoft
 This repository is created for my Internship. <br>
 Author : Divya Gurav <br>
+Competed on : 6 Dec 2023 <hr>
 Level 1 : Task 1. Portfolio <br>
 Creating a personal portfolio website using HTML and CSS. <hr>
 level 1 : Task 2. Landing Page <hr>
